@@ -1,0 +1,8 @@
+.env
+.nyc_output/
+test-reports/
+node_modules/
+db/
+bundle/
+bundle.zip
+key-file.json

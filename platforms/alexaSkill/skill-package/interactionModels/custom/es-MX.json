@@ -1,0 +1,98 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "himno de nicaragua",
+			"types": [],
+			"intents": [
+				{
+					"name": "LaunchIntent",
+					"samples": [
+						"buen dia",
+						"buenas tardes",
+						"buenos dias",
+						"hecho",
+						"hola",
+						"que está pasando hoy",
+						"que está pasando",
+						"que pasa",
+						"que sucede",
+						"un hecho"
+					]
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": [
+						"ayuda",
+						"ayúdame",
+						"ayuda por favor",
+						"por favor ayuda",
+						"que puedo preguntarte",
+						"que puedo preguntar",
+						"que puedo decir",
+						"como funciona esto",
+						"como funciona",
+						"como funcionas",
+						"como puedo usar esto",
+						"como hago esto",
+						"como haces esto",
+						"como usas esto",
+						"que hago",
+						"ahora que hago",
+						"necesito ayuda",
+						"que comandos puedo preguntar",
+						"que comandos puedo decir",
+						"que puedo hacer",
+						"para que uso esto",
+						"que preguntas puedo hacer",
+						"que puedes hacer",
+						"que haces",
+						"como te uso",
+						"como puedo usarte",
+						"que me puedes decir",
+						"otras opciones",
+						"opciones",
+						"como pido un juego",
+						"como juego esto",
+						"como juegas esto"
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": [
+						"detente",
+						"cancela",
+						"stop"
+					]
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": [
+						"ya me arte",
+						"completado",
+						"terminado",
+						"fuera",
+						"fin",
+						"me aburrí",
+						"ya no mas",
+						"para",
+						"eso es todo",
+						"cierra",
+						"el fin",
+						"cállate",
+						"por favor cierra",
+						"adios",
+						"nos vemos"
+					]
+				},
+				{
+					"name": "AMAZON.FallbackIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.NavigateHomeIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}

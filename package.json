@@ -1,0 +1,43 @@
+{
+  "name": "nicaraguan-anthem-voice-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "all": "rm yarn.lock; rm -r node_modules/; yarn install",
+    "bundle": "gulp --gulpfile node_modules/jovo-framework/gulpfile.js --cwd ./",
+    "lint": "eslint src/ project.js",
+    "lint-fix": "eslint --fix src/ project.js"
+  },
+  "author": "Octavio Menocal",
+  "license": "ISC",
+  "dependencies": {
+    "jovo-framework": "^3.0.24",
+    "jovo-platform-alexa": "^3.0.31",
+    "jovo-platform-googleassistant": "^3.0.24",
+    "jovo-plugin-debugger": "^3.0.21"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "gulp": "^4.0.2",
+    "gulp-install": "^1.1.0",
+    "gulp-run-command": "0.0.10",
+    "gulp-zip": "^5.0.2",
+    "husky": "^4.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omenocal/nicaraguan-anthem-voice-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omenocal/nicaraguan-anthem-voice-app/issues"
+  },
+  "homepage": "https://github.com/omenocal/nicaraguan-anthem-voice-app"
+}

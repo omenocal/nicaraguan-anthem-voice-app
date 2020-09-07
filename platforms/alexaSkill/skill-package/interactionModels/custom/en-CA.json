@@ -1,0 +1,151 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "nicaraguan anthem",
+			"types": [],
+			"intents": [
+				{
+					"name": "LaunchIntent",
+					"samples": [
+						"a question",
+						"hey there",
+						"hi there"
+					]
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": [
+						"do not get it",
+						"do not get this",
+						"do not get you",
+						"do not understand it",
+						"do not understand this",
+						"do not understand you",
+						"do not understand",
+						"don't get it",
+						"don't get this",
+						"don't get you",
+						"don't understand it",
+						"don't understand this",
+						"don't understand you",
+						"don't understand",
+						"get help",
+						"help me",
+						"help please",
+						"help",
+						"how can i play this",
+						"how can i play",
+						"how can i use you",
+						"how can we play this",
+						"how can we play",
+						"how can we use you",
+						"how do i ask for a game",
+						"how do i do this",
+						"how do i navigate",
+						"how do i play this",
+						"how do i play",
+						"how do i use this",
+						"how do i use you",
+						"how do we ask for a game",
+						"how do we do this",
+						"how do we navigate",
+						"how do we play this",
+						"how do we play",
+						"how do we use this",
+						"how do we use you",
+						"how do you do this",
+						"how do you use this",
+						"how do you work",
+						"how does it work",
+						"how does this work",
+						"how to play",
+						"i do not get it",
+						"i do not get this",
+						"i do not get you",
+						"i do not understand it",
+						"i do not understand this",
+						"i do not understand you",
+						"i do not understand",
+						"i don't get it",
+						"i don't get this",
+						"i don't get you",
+						"i don't understand it",
+						"i don't understand this",
+						"i don't understand you",
+						"i don't understand",
+						"instructions",
+						"options",
+						"other options",
+						"please help",
+						"repeat instructions please",
+						"repeat instructions",
+						"repeat the instructions please",
+						"repeat the instructions",
+						"rules",
+						"tell me how to play",
+						"tell me the instructions",
+						"tell me the rules",
+						"tell us how to play",
+						"tell us the instructions",
+						"tell us the rules",
+						"the rules",
+						"what are the rules",
+						"what can i ask you",
+						"what can i ask",
+						"what can i do",
+						"what can i say",
+						"what can i update",
+						"what can i use this for",
+						"what can you do",
+						"what can you tell me",
+						"what commands can i ask",
+						"what commands can i say",
+						"what do i do next",
+						"what do i do",
+						"what do you do",
+						"what questions can i ask",
+						"what setting can i update",
+						"what settings can i update"
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": [
+						"cancel",
+						"cancel it"
+					]
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": [
+						"all done",
+						"bye bye",
+						"bye",
+						"complete",
+						"done",
+						"end",
+						"finished",
+						"goodbye",
+						"i am done",
+						"i'm done",
+						"no more",
+						"pause",
+						"please close",
+						"sign off",
+						"sign out",
+						"stop",
+						"the end"
+					]
+				},
+				{
+					"name": "AMAZON.FallbackIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.NavigateHomeIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}
