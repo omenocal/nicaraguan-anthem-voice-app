@@ -17,9 +17,17 @@ module.exports = {
           description: 'The Sequencer component plays a series of audio clips one after another.',
           items: [
             {
+              type: 'Silence',
+              duration: 4600,
+            },
+            {
               type: 'Speech',
               contentType: 'SSML',
-              content: '<speak><break time="4500ms"/> ${payload.message} <break time="3s"/></speak>', // eslint-disable-line no-template-curly-in-string
+              content: '<speak> ${payload.message} </speak>', // eslint-disable-line no-template-curly-in-string
+            },
+            {
+              type: 'Silence',
+              duration: 3000,
             },
           ],
         },
