@@ -1,5 +1,6 @@
 .env
 .nyc_output/
+assets/
 test-reports/
 node_modules/
 db/
