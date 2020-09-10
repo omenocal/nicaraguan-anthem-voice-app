@@ -21,21 +21,21 @@ module.exports = {
               duration: 4600,
             },
             {
-              type: 'Audio',
-              description: 'The Audio component plays the provided audio file, such as an MP3 file. See docs for more information.',
-              source: '${payload.anthemAlexaVoice}', // eslint-disable-line no-template-curly-in-string
+              type: 'Speech',
+              contentType: 'SSML',
+              content: '<speak> ${payload.data.properties.message} </speak>', // eslint-disable-line no-template-curly-in-string
             },
             {
               type: 'Speech',
               contentType: 'SSML',
-              content: '<speak> ${payload.goodbye} </speak>', // eslint-disable-line no-template-curly-in-string
+              content: '<speak> ${payload.data.properties.prompt} </speak>', // eslint-disable-line no-template-curly-in-string
             },
           ],
         },
         {
           type: 'Audio',
           description: 'The Audio component plays the provided audio file, such as an MP3 file. See docs for more information.',
-          source: '${payload.anthemOnlyMusic}', // eslint-disable-line no-template-curly-in-string
+          source: '${payload.data.properties.anthemOnlyMusic}', // eslint-disable-line no-template-curly-in-string
           filter: [
             {
               type: 'Volume',

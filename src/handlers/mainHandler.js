@@ -1,37 +1,25 @@
 'use strict';
 
-const anthem = require('./anthem');
-const audioTemplateEs = require('./audioTemplateEs');
-const audioTemplateEn = require('./audioTemplateEn');
-
 const handler = {
   LAUNCH() {
-    const locale = this.getLocale().toLowerCase();
-    let message;
-    let template = audioTemplateEn;
-
-    if (locale === 'es-es') {
-      message = `${anthem.join(' ')} ${this.t('Goodbye')}`;
-      template = audioTemplateEs;
-    }
-
-    if (this.isAlexaSkill()) {
-      this.$alexaSkill.addAPLDirective({
-        type: 'Alexa.Presentation.APLA.RenderDocument',
-        token: 'token',
-        document: template,
-        datasources: {
-          anthemOnlyMusic: process.env.ANTHEM_ONLY_MUSIC_URL,
-          anthemAlexaVoice: process.env.ANTHEM_URL,
-          goodbye: this.t('Goodbye'),
-          message,
-        },
-      });
-    }
-
-    return this.tell(this.t('Intro'));
+    return this.toIntent('PrivateSingAnthem');
+  },
+  YesIntent() {
+    return this.toIntent('PrivateSingAnthem');
+  },
+  ResumeIntent() {
+    return this.toIntent('PrivateSingAnthem');
+  },
+  RepeatIntent() {
+    return this.toIntent('PrivateSingAnthem');
+  },
+  StartOverIntent() {
+    return this.toIntent('PrivateSingAnthem');
   },
 
+  NoIntent() {
+    return this.toIntent('END');
+  },
   CancelIntent() {
     return this.toIntent('END');
   },
@@ -50,7 +38,7 @@ const handler = {
   },
 
   Unhandled() {
-    return this.toIntent('LAUNCH');
+    return this.toIntent('PrivateSingAnthem');
   },
 };
 

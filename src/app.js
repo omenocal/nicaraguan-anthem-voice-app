@@ -14,6 +14,7 @@ app.use(
 
 app.setHandler(
   require('./handlers/mainHandler'),
+  require('./handlers/anthemHandler'),
 );
 
 module.exports.app = app;

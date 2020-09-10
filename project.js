@@ -56,7 +56,11 @@ module.exports = {
       },
       apis: {
         custom: {
-          interfaces: [],
+          interfaces: [
+            {
+              type: 'ALEXA_PRESENTATION_APL',
+            },
+          ],
         },
       },
       permissions: [],

@@ -1,6 +1,9 @@
 {
   "translation": {
+    "AnthemNoScreen": "$t(Intro) <audio src='{{audioUrl}}'/>",
     "Intro": "A continuación, el himno de la República de Nicaragua.",
-    "Goodbye": "<break time='3s'/> Adiós!"
+    "IntroPrompt": "<break time='3s'/> ¿Te gustaría que lo cante de nueovo?",
+    "Reprompt": "¿Otra vez?",
+    "Exit": "Okay. Adiós!"
   }
 }
