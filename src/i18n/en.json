@@ -2,7 +2,7 @@
   "translation": {
     "AnthemNoScreen": "$t(Intro) <audio src='{{audioUrl}}'/>",
     "Intro": "Ok. Here's the anthem of the Republic of Nicaragua.",
-    "IntroPrompt": "<break time='3s'/> Would you like me to sign again?",
+    "IntroPrompt": "<break time='3s'/> Would you like me to sing again?",
     "Reprompt": "Again?",
     "Exit": "Ok. Goodbye!"
   }

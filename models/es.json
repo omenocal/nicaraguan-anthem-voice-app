@@ -101,6 +101,95 @@
       }
     },
     {
+      "name": "RepeatIntent",
+      "alexa": {
+        "name": "AMAZON.RepeatIntent"
+      },
+      "phrases": [
+        "consigueme la información otra vez por favor",
+        "consigueme la información otra vez",
+        "dame la información otra vez por favor",
+        "dame la información otra vez",
+        "devuélveme la información por favor",
+        "devuélveme la información",
+        "lee la información de vuelta por favor",
+        "leelo de nuevo",
+        "leer la información de nuevo",
+        "leer la información de vuelta",
+        "leer la información otra vez por favor",
+        "léelo de nuevo por favor",
+        "léelo de nuevo",
+        "repeti eso",
+        "repeti eso por favor",
+        "repeti eso de nuevo",
+        "repeti eso de nuevo por favor",
+        "repeti eso otra vez",
+        "repeti eso otra vez por favor",
+        "repetir",
+        "repita por favor",
+        "repite eso por favor",
+        "repite eso"
+      ]
+    },
+    {
+      "name": "YesIntent",
+      "alexa": {
+        "name": "AMAZON.YesIntent"
+      },
+      "phrases": [
+        "si",
+        "si por favor",
+        "sip",
+        "yep",
+        "listo",
+        "claro",
+        "seguro",
+        "gracias",
+        "yeah",
+        "okay",
+        "absolutamente",
+        "suena bien",
+        "seguro suena bien",
+        "afirmativo",
+        "amen",
+        "esta bien",
+        "bien",
+        "por favor",
+        "naturalmente",
+        "por supuesto",
+        "positivamente",
+        "muy bien",
+        "simon",
+        "pues claro",
+        "cool"
+      ]
+    },
+    {
+      "name": "NoIntent",
+      "alexa": {
+        "name": "AMAZON.NoIntent"
+      },
+      "phrases": [
+        "no",
+        "no gracias",
+        "nope",
+        "de ninguna forma",
+        "de ninguna manera",
+        "nunca",
+        "negativo",
+        "absolutamente no",
+        "por ningún motivo",
+        "por ningún caso",
+        "no esta vez",
+        "no nunca",
+        "desafortunadamente no",
+        "gracias pero no",
+        "tal vez otro día",
+        "nah",
+        "ahorita no"
+      ]
+    },
+    {
       "name": "HelpIntent",
       "alexa": {
         "name": "AMAZON.HelpIntent"

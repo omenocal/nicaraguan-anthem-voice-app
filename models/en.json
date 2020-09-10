@@ -94,6 +94,106 @@
       }
     },
     {
+      "name": "RepeatIntent",
+      "alexa": {
+        "name": "AMAZON.RepeatIntent"
+      },
+      "phrases": [
+        "read the info back",
+        "read the info back please",
+        "read it back",
+        "read it back please",
+        "repeat",
+        "repeat that",
+        "repeat please",
+        "repeat that please",
+        "give me the info back",
+        "give me the info back please",
+        "get me the info back",
+        "get me the info back please",
+        "read the info again",
+        "read the info again please",
+        "read it again",
+        "read it again please",
+        "give me the info again",
+        "give me the info again please",
+        "get me the info again",
+        "get me the info again please"
+      ]
+    },
+    {
+      "name": "YesIntent",
+      "alexa": {
+        "name": "AMAZON.YesIntent"
+      },
+      "phrases": [
+        "yes please",
+        "yup",
+        "yep",
+        "ready",
+        "sure",
+        "yeah",
+        "okay",
+        "absolutely",
+        "sure sounds good",
+        "affirmative",
+        "amen",
+        "find",
+        "good",
+        "yea",
+        "all right",
+        "aye aye",
+        "please",
+        "gladly",
+        "naturally",
+        "of course",
+        "positively",
+        "sure thing",
+        "very well",
+        "roger",
+        "all righty",
+        "check",
+        "cool",
+        "yes way",
+        "yeppers",
+        "yessum",
+        "hells yes",
+        "hell ya",
+        "hell yea",
+        "right on"
+      ]
+    },
+    {
+      "name": "NoIntent",
+      "alexa": {
+        "name": "AMAZON.NoIntent"
+      },
+      "phrases": [
+        "no",
+        "no thank you",
+        "no thanks",
+        "nope",
+        "no way",
+        "never",
+        "negative",
+        "negatron",
+        "nix",
+        "absolutely not",
+        "not by any means",
+        "no means",
+        "not at all",
+        "hell no",
+        "not this time",
+        "not ever",
+        "unfortunately not",
+        "thanks but no thanks",
+        "maybe another time",
+        "nah",
+        "not right now",
+        "not now"
+      ]
+    },
+    {
       "name": "HelpIntent",
       "alexa": {
         "name": "AMAZON.HelpIntent"
