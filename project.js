@@ -69,7 +69,7 @@ module.exports = {
           'en-US': {
             name: 'Nicaraguan Anthem',
             summary: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.',
-            description: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.',
+            description: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.\n\nDISCLAIMER: The skill has some content in Spanish as the anthem is interpreted in the original language.',
             keywords: ['alphabetic', 'sing', 'song', 'voice', 'ipa'],
             examplePhrases: ['Alexa, open Nicaraguan Anthem.'],
             largeIconUri: 'https://s3.amazonaws.com/CAPS-SSE/echo_developer/222c/11e1a9854fc44b71a9c7cdc42bca08e1/APP_ICON_LARGE?versionId=asQv3JH2f7tMmA50CQiwdWMAJYXN19BG&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200907T031833Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QIH3MSWPB%2F20200907%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5551a10d9cbe32a756bc7477661a86742fd0b3846e598dbc2b5a25435c7c18fa',
@@ -78,7 +78,7 @@ module.exports = {
           'en-GB': {
             name: 'Nicaraguan Anthem',
             summary: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.',
-            description: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.',
+            description: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.\n\nDISCLAIMER: The skill has some content in Spanish as the anthem is interpreted in the original language.',
             keywords: ['alphabetic', 'sing', 'song', 'voice', 'ipa'],
             examplePhrases: ['Alexa, open Nicaraguan Anthem.'],
             largeIconUri: 'https://s3.amazonaws.com/CAPS-SSE/echo_developer/222c/11e1a9854fc44b71a9c7cdc42bca08e1/APP_ICON_LARGE?versionId=asQv3JH2f7tMmA50CQiwdWMAJYXN19BG&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200907T031833Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QIH3MSWPB%2F20200907%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5551a10d9cbe32a756bc7477661a86742fd0b3846e598dbc2b5a25435c7c18fa',
@@ -87,7 +87,7 @@ module.exports = {
           'en-CA': {
             name: 'Nicaraguan Anthem',
             summary: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.',
-            description: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.',
+            description: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.\n\nDISCLAIMER: The skill has some content in Spanish as the anthem is interpreted in the original language.',
             keywords: ['alphabetic', 'sing', 'song', 'voice', 'ipa'],
             examplePhrases: ['Alexa, open Nicaraguan Anthem.'],
             largeIconUri: 'https://s3.amazonaws.com/CAPS-SSE/echo_developer/222c/11e1a9854fc44b71a9c7cdc42bca08e1/APP_ICON_LARGE?versionId=asQv3JH2f7tMmA50CQiwdWMAJYXN19BG&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200907T031833Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QIH3MSWPB%2F20200907%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5551a10d9cbe32a756bc7477661a86742fd0b3846e598dbc2b5a25435c7c18fa',
@@ -96,7 +96,7 @@ module.exports = {
           'en-AU': {
             name: 'Nicaraguan Anthem',
             summary: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.',
-            description: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.',
+            description: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.\n\nDISCLAIMER: The skill has some content in Spanish as the anthem is interpreted in the original language.',
             keywords: ['alphabetic', 'sing', 'song', 'voice', 'ipa'],
             examplePhrases: ['Alexa, open Nicaraguan Anthem.'],
             largeIconUri: 'https://s3.amazonaws.com/CAPS-SSE/echo_developer/222c/11e1a9854fc44b71a9c7cdc42bca08e1/APP_ICON_LARGE?versionId=asQv3JH2f7tMmA50CQiwdWMAJYXN19BG&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200907T031833Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QIH3MSWPB%2F20200907%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5551a10d9cbe32a756bc7477661a86742fd0b3846e598dbc2b5a25435c7c18fa',
@@ -105,7 +105,7 @@ module.exports = {
           'en-IN': {
             name: 'Nicaraguan Anthem',
             summary: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.',
-            description: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.',
+            description: 'Listen to Alexa singing the Nicaraguan Anthem with her own voice.\n\nDISCLAIMER: The skill has some content in Spanish as the anthem is interpreted in the original language.',
             keywords: ['alphabetic', 'sing', 'song', 'voice', 'ipa'],
             examplePhrases: ['Alexa, open Nicaraguan Anthem.'],
             largeIconUri: 'https://s3.amazonaws.com/CAPS-SSE/echo_developer/222c/11e1a9854fc44b71a9c7cdc42bca08e1/APP_ICON_LARGE?versionId=asQv3JH2f7tMmA50CQiwdWMAJYXN19BG&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200907T031833Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QIH3MSWPB%2F20200907%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5551a10d9cbe32a756bc7477661a86742fd0b3846e598dbc2b5a25435c7c18fa',
